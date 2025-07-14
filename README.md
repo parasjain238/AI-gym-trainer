@@ -4,6 +4,7 @@ AI Gym Trainer is an innovative fitness application that leverages AI-powered co
 Features
 
 Body Part Detection: Utilizes computer vision to identify key body parts and joints during exercises.
+
 Angle Analysis: Calculates joint angles to provide real-time feedback on exercise form, ensuring correct posture and movement.
 Repetition Counting: Automatically tracks and counts exercise repetitions with high accuracy.
 Real-Time Feedback: Offers visual or auditory cues to correct form and improve performance.
@@ -24,14 +25,17 @@ git clone https://github.com/parasjain238/AI-gym-trainer
 
 
 Navigate to the project directory:
+
 cd ai-gym-trainer
 
 
 Install dependencies:
+
 pip install -r requirements.txt
 
 
 Run the application:
+
 python main.py
 
 
@@ -53,15 +57,23 @@ Perform the exercise while the AI tracks your movements, provides angle feedback
 Review your performance summary after completing the session.
 
 Contributing
+
 Contributions are welcome! To contribute:
 
 Fork the repository.
+
 Create a new branch (git checkout -b feature-branch).
 Make your changes and commit (git commit -m "Add new feature").
 Push to the branch (git push origin feature-branch).
 Open a pull request.
 
+images after complete working for pull-up 
+
+![output pull-up](https://github.com/user-attachments/assets/7df4ec1a-e8e7-4af3-96ea-944ee9f0e476)
+
+
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 Contact
+
 For questions or feedback, reach out via email - jainparas0987.com or open an issue on GitHub.
