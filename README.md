@@ -4,6 +4,8 @@
 
 - **Divyanshu Rai**  
   GitHub: [@divyanshurai-2004](https://github.com/divyanshurai-2004)
+
+  
 AI GYM TRAINER
 Overview
 AI Gym Trainer is an innovative fitness application that leverages AI-powered computer vision to enhance your workout experience. The system detects body parts in real-time, analyzes joint angles to ensure proper exercise form, and tracks repetition counts for various exercises. Whether you're a beginner or an advanced athlete, AI Gym Trainer provides personalized feedback to optimize your workouts.
