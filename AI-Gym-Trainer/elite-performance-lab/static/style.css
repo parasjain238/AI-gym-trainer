@@ -86,3 +86,53 @@ body {
     height: 300px;
     object-fit: cover;
 }
+
+.slider {
+    overflow: hidden;
+    background: #111;
+    padding: 20px 0;
+}
+
+.slide-track {
+    display: flex;
+    width: calc(250px * 10);
+    animation: scroll 20s linear infinite;
+}
+
+.slide-track img {
+    width: 250px;
+    height: 300px;
+    margin: 0 10px;
+    object-fit: cover;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+.contest-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background: #f5f5f5;
+    color: black;
+}
+
+.contest-text {
+    width: 50%;
+}
+
+.contest-text h2 {
+    font-size: 32px;
+}
+
+.contest-text p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.contest-image img {
+    width: 400px;
+    border-radius: 10px;
+}
