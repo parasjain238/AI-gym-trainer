@@ -4,6 +4,7 @@
     <title>Elite Performance Lab</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
 
 <!-- 🔥 NAVBAR -->
@@ -12,52 +13,46 @@
     <div class="nav-links">
         <a href="#">Programs</a>
         <a href="#">Lifestyle</a>
-        <button class="nav-btn">Start Training</button>
+        <button class="nav-btn" onclick="startAI()">Start Training</button>
     </div>
 </div>
 
-<!-- 🔥 HERO SECTION -->
+<!-- 🔥 HERO -->
 <div class="hero">
     <h1>TRANSFORM YOUR BODY WITH<br>AI PERSONAL TRAINING</h1>
     <p>Smart AI-powered fitness coaching tailored for your body & goals.</p>
 
     <div class="buttons">
-        <button class="primary">Start AI Training</button>
+        <button class="primary" onclick="startAI()">Start AI Training</button>
         <button class="secondary">View Plans</button>
     </div>
 </div>
 
-<!-- 🔥 TRANSFORMATION SECTION -->
+<!-- 🔥 TRANSFORM -->
 <div class="transform">
     <h2>Real Transformations</h2>
-
     <div class="images">
-        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e">
-        <img src="https://images.unsplash.com/photo-1594737625785-c6c1c2a1a6d0">
-        <img src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba">
-        <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e">
+        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e" style="width:100%;">
+        <img src="https://images.unsplash.com/photo-1594737625785-c6c1c2a1a6d0" style="width:100%;">
+        <img src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba" style="width:100%;">
+        <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e" style="width:100%;">
     </div>
 </div>
 
-</body>
-</html>
+<!-- 🔥 SLIDER -->
 <div class="slider">
-
     <div class="slide-track">
         <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e">
         <img src="https://images.unsplash.com/photo-1594737625785-c6c1c2a1a6d0">
         <img src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba">
         <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e">
-
-        <!-- repeat for smooth loop -->
         <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e">
         <img src="https://images.unsplash.com/photo-1594737625785-c6c1c2a1a6d0">
     </div>
-
 </div>
 
+<!-- 🔥 CONTEST -->
 <div class="contest-section">
-
     <div class="contest-text">
         <h2>ACHIEVE YOUR BEST PHYSIQUE WITH<br>CONTEST PREP COACHING</h2>
         <p>
@@ -65,95 +60,71 @@
             track your progress, and transform your body efficiently.
         </p>
     </div>
-
     <div class="contest-image">
-        <img src="https://images.unsplash.com/photo-1605296867424-35fc25c9212a">
+        <img src="https://images.unsplash.com/photo-1605296867424-35fc25c9212a" style="width:100%;">
     </div>
-
 </div>
-<div class="lifestyle-section">
 
+<!-- 🔥 LIFESTYLE -->
+<div class="lifestyle-section">
     <div class="lifestyle-image">
-        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e">
+        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e" style="width:100%;">
     </div>
 
     <div class="lifestyle-text">
         <h2>TRANSFORM YOUR LIFESTYLE WITH<br>PERSONALISED COACHING</h2>
-
         <p>
-            Our lifestyle coaching program is designed to help you achieve your fitness 
-            and health goals through personalized guidance and support. Whether you’re 
-            looking to lose weight, gain muscle, or improve your overall well-being, 
-            our AI system creates a customized plan tailored to your needs.
+            Our lifestyle coaching program helps you achieve fitness goals with AI guidance.
         </p>
-
         <button class="cta-btn">START NOW!</button>
     </div>
-
 </div>
-<div class="posing-section">
 
+<!-- 🔥 POSING -->
+<div class="posing-section">
     <div class="posing-text">
         <h2>TRANSFORM YOUR POSING SKILLS<br>WITH AI TRAINING</h2>
-
-        <p>
-            Experience AI-powered fitness coaching and track your body movements 
-            with real-time feedback. Improve posture, accuracy, and performance.
-        </p>
+        <p>Improve posture, accuracy, and performance with AI tracking.</p>
 
         <form>
             <input type="text" placeholder="Name" required>
             <input type="email" placeholder="Email" required>
-
             <button type="submit">SUBMIT REQUEST</button>
         </form>
     </div>
 
     <div class="posing-image">
-        <img src="https://images.unsplash.com/photo-1594737625785-c6c1c2a1a6d0">
+        <img src="https://images.unsplash.com/photo-1594737625785-c6c1c2a1a6d0" style="width:100%;">
     </div>
-
 </div>
-<div class="testimonial-section">
 
+<!-- 🔥 TESTIMONIAL -->
+<div class="testimonial-section">
     <h2>CLIENT STORIES</h2>
-    <p class="subtitle">Read what our clients have to say about us</p>
+    <p class="subtitle">Read what our clients have to say</p>
 
     <div class="testimonial-container">
-
         <div class="card">
             <h3>~ ABHINAV SHARMA</h3>
-            <p>
-                "Bhuwan’s coaching has been a game-changer for me. His personalized 
-                approach helped me achieve my fitness goals faster than I imagined."
-            </p>
+            <p>Game-changing coaching experience.</p>
         </div>
 
         <div class="card">
             <h3>~ NIKHIL JADHAV</h3>
-            <p>
-                "Working with this program has been incredible. The guidance and 
-                structure helped me push beyond my limits."
-            </p>
+            <p>Incredible guidance and results.</p>
         </div>
 
         <div class="card">
             <h3>~ FAISAL KHAN</h3>
-            <p>
-                "Best coaching experience ever. I’ve seen major transformation in my 
-                physique and confidence."
-            </p>
+            <p>Best transformation journey ever.</p>
         </div>
-
     </div>
-
 </div>
-<!-- 🔥 CTA BANNER -->
+
+<!-- 🔥 CTA -->
 <div class="cta-banner">
     <h2>ACHIEVE YOUR FITNESS GOALS</h2>
-    <p>
-        Get personalized coaching with AI-powered training and transform your body.
-    </p>
+    <p>Train smarter with AI-powered coaching.</p>
 
     <div class="cta-buttons">
         <button class="dark-btn">CONTEST PREP</button>
@@ -163,7 +134,6 @@
 
 <!-- 🔥 FOOTER -->
 <div class="footer">
-
     <div class="footer-left">
         <h2>ELITE PERFORMANCE LAB</h2>
         <p>Contact:</p>
@@ -172,18 +142,27 @@
 
     <div class="footer-links">
         <ul>
-            <li>Contest Prep Coaching</li>
-            <li>Lifestyle Coaching</li>
-            <li>AI Gym Training</li>
+            <li>Contest Prep</li>
+            <li>Lifestyle</li>
+            <li>AI Training</li>
         </ul>
     </div>
 
     <div class="footer-links">
         <ul>
             <li>Privacy Policy</li>
-            <li>Terms of Service</li>
-            <li>Refunds & Returns</li>
+            <li>Terms</li>
+            <li>Refunds</li>
         </ul>
     </div>
-
 </div>
+
+<!-- 🔥 JS -->
+<script>
+function startAI() {
+    window.location.href = "/start";
+}
+</script>
+
+</body>
+</html>
