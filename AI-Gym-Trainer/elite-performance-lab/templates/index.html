@@ -1,0 +1,25 @@
+cat > templates/index.html << 'EOF'
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elite Performance Lab</title>
+</head>
+<body>
+
+<h1>🏋️ Elite Performance Lab</h1>
+
+<button onclick="startCamera()">Start AI Training</button>
+
+<br><br>
+
+<img id="video" width="600">
+
+<script>
+function startCamera() {
+    document.getElementById("video").src = "/video";
+}
+</script>
+
+</body>
+</html>
+EOF
