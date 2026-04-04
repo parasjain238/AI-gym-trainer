@@ -136,3 +136,89 @@ body {
     width: 400px;
     border-radius: 10px;
 }
+.lifestyle-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    background: #f5f5f5;
+    color: black;
+}
+
+.lifestyle-image img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.lifestyle-text {
+    width: 50%;
+}
+
+.lifestyle-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.lifestyle-text p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.cta-btn {
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #b22222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.posing-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    background: #eee;
+    color: black;
+}
+
+.posing-text {
+    width: 50%;
+}
+
+.posing-text h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.posing-text p {
+    margin: 20px 0;
+}
+
+/* FORM */
+.posing-text form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.posing-text input {
+    padding: 12px;
+    width: 45%;
+    border: 1px solid #ccc;
+}
+
+.posing-text button {
+    width: 100%;
+    padding: 12px;
+    background: #b22222;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.posing-image img {
+    width: 450px;
+    border-radius: 10px;
+}
