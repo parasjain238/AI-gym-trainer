@@ -1,25 +1,43 @@
-cat > templates/index.html << 'EOF'
 <!DOCTYPE html>
 <html>
 <head>
     <title>Elite Performance Lab</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
-<h1>🏋️ Elite Performance Lab</h1>
+<!-- 🔥 NAVBAR -->
+<div class="navbar">
+    <div class="logo">ELITE PERFORMANCE LAB</div>
+    <div class="nav-links">
+        <a href="#">Programs</a>
+        <a href="#">Lifestyle</a>
+        <button class="nav-btn">Start Training</button>
+    </div>
+</div>
 
-<button onclick="startCamera()">Start AI Training</button>
+<!-- 🔥 HERO SECTION -->
+<div class="hero">
+    <h1>TRANSFORM YOUR BODY WITH<br>AI PERSONAL TRAINING</h1>
+    <p>Smart AI-powered fitness coaching tailored for your body & goals.</p>
 
-<br><br>
+    <div class="buttons">
+        <button class="primary">Start AI Training</button>
+        <button class="secondary">View Plans</button>
+    </div>
+</div>
 
-<img id="video" width="600">
+<!-- 🔥 TRANSFORMATION SECTION -->
+<div class="transform">
+    <h2>Real Transformations</h2>
 
-<script>
-function startCamera() {
-    document.getElementById("video").src = "/video";
-}
-</script>
+    <div class="images">
+        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e">
+        <img src="https://images.unsplash.com/photo-1594737625785-c6c1c2a1a6d0">
+        <img src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba">
+        <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e">
+    </div>
+</div>
 
 </body>
 </html>
-EOF

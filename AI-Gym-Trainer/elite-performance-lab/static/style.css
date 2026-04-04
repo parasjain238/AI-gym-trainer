@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #111;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: black;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #e5e5e5;
+    color: black;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* BUTTONS */
+.buttons {
+    margin-top: 30px;
+}
+
+.primary {
+    padding: 15px 30px;
+    background: black;
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+.secondary {
+    padding: 15px 30px;
+    border: 2px solid black;
+    background: transparent;
+}
+
+/* TRANSFORM */
+.transform {
+    padding: 50px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.images img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
