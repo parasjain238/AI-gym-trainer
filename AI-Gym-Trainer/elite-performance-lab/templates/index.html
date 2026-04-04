@@ -24,7 +24,7 @@
 
     <div class="buttons">
         <button class="primary" onclick="startAI()">Start AI Training</button>
-        <button class="secondary">View Plans</button>
+        <button class="secondary" onclick="viewPlans()">View Plans</button>
     </div>
 </div>
 
@@ -160,7 +160,11 @@
 <!-- 🔥 JS -->
 <script>
 function startAI() {
-    window.location.href = "/start";
+    window.location.href = "/video";
+}
+
+function viewPlans() {
+    window.location.href = "/plans";
 }
 </script>
 
