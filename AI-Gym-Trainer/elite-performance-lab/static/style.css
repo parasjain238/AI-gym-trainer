@@ -242,17 +242,19 @@ body {
 .testimonial-section {
     padding: 80px;
     background: #f3f3f3;
-    text-align: left;
+    color: black; /* FIX MAIN ISSUE */
 }
 
 .testimonial-section h2 {
     font-size: 36px;
     font-weight: bold;
+    color: black;
 }
 
 .subtitle {
     margin: 10px 0 30px;
     font-size: 14px;
+    color: #555;
 }
 
 /* CARDS */
@@ -264,17 +266,80 @@ body {
 .card {
     background: white;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     width: 30%;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    color: black; /* IMPORTANT */
 }
 
 .card h3 {
     font-size: 16px;
     margin-bottom: 10px;
+    color: black;
 }
 
 .card p {
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.6;
+    color: #333;
+}
+/* CTA BANNER */
+.cta-banner {
+    background: url('https://images.unsplash.com/photo-1579758629938-03607ccdbaba') center/cover;
+    color: white;
+    text-align: left;
+    padding: 100px;
+}
+
+.cta-banner h2 {
+    font-size: 40px;
+}
+
+.cta-banner p {
+    margin: 20px 0;
+    max-width: 500px;
+}
+
+.cta-buttons button {
+    padding: 12px 25px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dark-btn {
+    background: black;
+    color: white;
+}
+
+.light-btn {
+    background: white;
+    color: black;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background: #f3f3f3;
+    color: black;
+}
+
+.footer-left h2 {
+    font-weight: bold;
+}
+
+.email {
+    color: #b22222;
+    margin-top: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 10px 0;
 }
