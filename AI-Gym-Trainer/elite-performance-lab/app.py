@@ -29,14 +29,20 @@ def home():
     return render_template("index.html")
 
 
-# 🔥 LIVE VIDEO ROUTE (BEST FEATURE)
+# 🔥 LIVE VIDEO ROUTE
 @app.route('/video')
 def video():
     return Response(generate_frames(),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
-# 🔥 OPTIONAL: OLD METHOD (OPENS TERMINAL AI)
+# ✅ 🔥 ADD THIS (IMPORTANT - FIX YOUR ERROR)
+@app.route('/plans')
+def plans():
+    return render_template("plans.html")
+
+
+# 🔥 OPTIONAL: OLD METHOD
 @app.route('/start')
 def start_ai():
     os.system("python3 ../src/main.py -t squat")
