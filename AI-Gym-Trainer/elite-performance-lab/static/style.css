@@ -562,3 +562,31 @@ body {
     margin: 10px 0;
     font-size: 14px;
 }
+/* FIX PRICING TEXT VISIBILITY */
+.plan-card {
+    background: white;
+    color: black;   /* 🔥 IMPORTANT */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* FIX LIST */
+.plan-card ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+    color: black;   /* 🔥 IMPORTANT */
+}
+
+.plan-card ul li {
+    margin: 10px 0;
+    font-size: 14px;
+    color: black;   /* 🔥 IMPORTANT */
+}
+
+/* PRICE COLOR */
+.plan-card h3 {
+    color: #b22222;
+}
