@@ -1,17 +1,77 @@
-<div class="lifestyle-hero">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plans - Elite Performance Lab</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
 
+<body>
+
+<!-- 🔥 NAVBAR -->
+<div class="navbar">
+    <div class="logo">ELITE PERFORMANCE LAB</div>
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="#">Programs</a>
+        <a href="#">Lifestyle</a>
+        <button class="nav-btn" onclick="startAI()">Start Training</button>
+    </div>
+</div>
+
+<!-- 🔥 HERO SECTION -->
+<div class="lifestyle-hero">
     <div class="overlay">
         <h1>
             UNLOCK YOUR BEST PHYSIQUE WITH<br>
             LIFESTYLE COACHING
         </h1>
 
-        <button onclick="goPlans()">START NOW!</button>
+        <button class="hero-btn" onclick="scrollToPlans()">START NOW!</button>
+    </div>
+</div>
+
+<!-- 🔥 PLANS SECTION -->
+<div class="plans-container" id="plans">
+
+    <div class="plan-card">
+        <h2>Basic</h2>
+        <h3>₹999/month</h3>
+        <p>✔ AI Workout Tracking</p>
+        <p>✔ Basic Analytics</p>
+        <button>Start</button>
+    </div>
+
+    <div class="plan-card highlight">
+        <h2>Pro</h2>
+        <h3>₹1999/month</h3>
+        <p>✔ Advanced AI Tracking</p>
+        <p>✔ Diet Plan</p>
+        <p>✔ Progress Reports</p>
+        <button>Start</button>
+    </div>
+
+    <div class="plan-card">
+        <h2>Elite</h2>
+        <h3>₹3999/month</h3>
+        <p>✔ Personal Coaching</p>
+        <p>✔ AI + Trainer Support</p>
+        <button>Start</button>
     </div>
 
 </div>
+
+<!-- 🔥 JS -->
 <script>
-function goPlans() {
-    window.location.href = "/plans";
+function startAI() {
+    window.location.href = "/start";
+}
+
+function scrollToPlans() {
+    document.getElementById("plans").scrollIntoView({
+        behavior: "smooth"
+    });
 }
 </script>
+
+</body>
+</html>
