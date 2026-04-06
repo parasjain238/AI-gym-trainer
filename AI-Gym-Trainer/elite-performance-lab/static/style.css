@@ -381,3 +381,38 @@ body {
     transform: scale(1.1);
     border: 2px solid #b22222;
 }
+/* 🔥 LIFESTYLE HERO */
+.lifestyle-hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1605296867424-35fc25c9212a') center/cover no-repeat;
+    position: relative;
+}
+
+.lifestyle-hero .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lifestyle-hero h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lifestyle-hero button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    background: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
