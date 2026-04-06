@@ -440,3 +440,53 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+/* 🔥 LIFESTYLE DETAILS */
+.lifestyle-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    background: #f5f5f5;
+    color: black;
+    gap: 50px;
+}
+
+.lifestyle-img img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.lifestyle-content {
+    width: 50%;
+}
+
+.lifestyle-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.lifestyle-content p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.lifestyle-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lifestyle-content li {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.lifestyle-content button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
