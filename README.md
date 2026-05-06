@@ -5,6 +5,9 @@
 - **Divyanshu Rai**  
   GitHub: [@divyanshurai-2004](https://github.com/divyanshurai-2004)
 
+- **Prakhar parihar**
+- GitHub: PrakharParihar22 (Prakhar Parihar) https://share.google/aax1tTr0KLUEGQTCT
+
   
 AI GYM TRAINER
 Overview
